@@ -12,7 +12,6 @@ def reverse_each_word(string)
      word.reverse
   end
 
-  puts ("reverseWordArr: #{reverseWordArr}")
   newStr = wordArr.join(" ")
 
 
