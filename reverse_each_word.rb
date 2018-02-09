@@ -6,7 +6,9 @@ wordArr = string.split(" ")
 reverseWordArr = []
 
 wordArr.each do |word|
-  word.reverse
+  reverseWordArr << word.reverse
+end
+
 
 
 
