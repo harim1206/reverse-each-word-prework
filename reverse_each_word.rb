@@ -9,7 +9,7 @@ def reverse_each_word(string)
   puts("wordArr: #{wordArr}")
   reverseWordArr = []
 
-  wordArr.each do |word|
+  wordArr.each collect |word|
     reverseWordArr << word.reverse
   end
 
