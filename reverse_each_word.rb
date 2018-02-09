@@ -13,7 +13,7 @@ def reverse_each_word(string)
     reverseWordArr << word.reverse
   end
 
-  puts ("reverseWordArr")
+  puts ("reverseWordArr: #{reverseWordArr}")
   reverseWordArr
 
 
