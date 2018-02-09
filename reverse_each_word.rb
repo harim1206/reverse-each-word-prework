@@ -6,7 +6,7 @@ def reverse_each_word(string)
 
   wordArr = string.split(" ")
 
-  puts("wordArr: #{wordarr}")
+  puts("wordArr: #{wordArr}")
   reverseWordArr = []
 
   wordArr.each do |word|
