@@ -9,6 +9,8 @@ wordArr.each do |word|
   reverseWordArr << word.reverse
 end
 
+puts ("reverseWordArr")
+reverseWordArr
 
 
 
