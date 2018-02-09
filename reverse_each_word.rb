@@ -5,6 +5,8 @@ def reverse_each_word(string)
   puts("Mark****************************************************")
 
   wordArr = string.split(" ")
+
+  puts("wordArr: #{wordarr}")
   reverseWordArr = []
 
   wordArr.each do |word|
