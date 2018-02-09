@@ -13,9 +13,10 @@ def reverse_each_word(string)
     reverseWordArr << word.reverse
   end
 
+  puts("newStr: #{newStr}")
   puts ("reverseWordArr: #{reverseWordArr}")
   newStr = reverseWordArr.join(" ")
-  puts("newStr: #{newStr}")
+
 
 
 
